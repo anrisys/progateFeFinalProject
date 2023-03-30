@@ -18,6 +18,7 @@ btn.addEventListener('click', function(){
         newP.appendChild(pContent);
         result.appendChild(newP);
     }
+    
     else if(parseFloat(input) % 3 == 0 && parseFloat(input) % 5 == 0){
         let newP = document.createElement(`p`);
         let pContent = document.createTextNode('FizzBuzz');
